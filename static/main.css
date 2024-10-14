@@ -3,21 +3,22 @@ html { overflow-y: scroll;}
 .topnav{
     display:flex;
     justify-content: flex-end;
-    /*padding:0.3em;*/
+    margin-right: 2em;
 }
 
 .topnav a{
     margin-left: 1em;
+    margin-top: 1em;
 }
-
-.home-title{
-    margin-top: 9em; /* Push the home-title to the bottom */
-    margin-left: 1em;
+.home-title {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
     font-size: 3.5em;
     white-space: pre-line;
     font-family: "Lucida Console", "Courier New", monospace;
+    margin-bottom: 2em; /* Adjust this to control the distance from the bottom */
 }
-
 
 .container{
     width: 100%;
@@ -84,11 +85,21 @@ html { overflow-y: scroll;}
 
     font-family: "Lucida Console", "Courier New", monospace;
 }
+.personal-info-header,
+.personal-info,
+.bottom-left {
+    padding: 40px;
+}
 .personal-info{
     white-space: pre-line;
     line-height:2;
-    padding:30px;
 }
 .bottom-left a{
     padding: 10px;
+}
+
+#footer{
+    bottom:0;
+    width:100%;
+
 }

@@ -8,14 +8,16 @@
 <body style="margin-left:0; margin-right:0">
     <header>
         <div class="topnav">
-            <a href=""><img src="static/folder_icon.svg" style="width:3em;height:3em"></a>
+            <a href="static/CV.pdf" download="Vincent_Onggo_Resume.pdf">
+                <img src="static/folder_icon.svg" style="width:3em;height:3em" alt="Download PDF">
+            </a>
             <a href="#info-page"><img src="static/info_icon.svg" style="width:3em;height:3em"></a>
         </div>
     </header>
     <div class="container">
-        <div class="slides">
+        <div class="slides" id="footer">
             <h1 class="home-title">
-                {<i>Vincent Onggoputra</i>}
+                <i>Vincent Onggoputra</i>
                 is a Computer Engineering
                 and Computer Science
                 student at USC.
@@ -24,7 +26,9 @@
         <div class="slides projects">
             <table class="project-table">
                 <tr style="border: 2px solid black">
-                    <td class="project project1">01 AutoDrive - F1-Tenth Car</td>
+                    <td class="project project1" >
+                        <a href="autodrive.html" style="text-decoration:none; color:black;">01 AutoDrive - F1-Tenth Car</a>
+                    </td>
                     <td class="description description1">Develop a scaled down autonomous car</td>
                 </tr>
                 <tr style="border: 2px solid black">
@@ -41,24 +45,25 @@
                 </tr>
             </table>
         </div>
-        <div class="info-page">
+        <div id="info-page">
             <img src="static/starwars.jpeg" class="left" style="float: left">
             <div class="right" style="float:right">
-                <h1>Welocome to my page &#128075;</h1>
+                <h1 class="personal-info-header">Welcome to my page &#128075;</h1>
                 <p class="personal-info">
                     I am currently a freshman at USC, pursuing Computer Engineering and Computer Science.
     
                     I am proficient in C/C++, Python, HTML, CSS, JS.
     
-                    My interest lies in automation, machine learning, and robotics.
+                    My interest lies in automation, software engineering, machine learning, and robotics.
                 </p>
-            </div>
-            <div class="bottom-left">
-                <a href="https://drive.google.com/file/d/1HZ6nNPqp8H6QrCDYG1ImOAW8eSht0bMz/view?usp=sharing" target="_blank"><img src="static/resume_icon.svg"></a>
+                <div class="bottom-left">
+                <a href="https://drive.google.com/file/d/1Xw1jVJ6eAo-gX8JFugstzdlLesEvpf-L/view?usp=sharing" target="_blank"><img src="static/resume_icon.svg"></a>
                 <a href="https://www.instagram.com/vincentonggo_" target="_blank"><img src="static/IG_icon.svg"></a>
                 <a href="https://www.linkedin.com/in/vincentonggo/" target="_blank"><img src="static/linkedin_icon.svg"></a>
                 <a href="mailto:vincentonggo@gmail.com" target="_blank"><img src="static/email_icon.svg"></a>
             </div>
+            </div>
+            
         </div>
     </div>
 </body>
