@@ -1,0 +1,22 @@
+.topnav {
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center;            /* Vertically center icons */
+    padding: 1em;
+    background-color: white;
+}
+
+.left-icons {
+    margin-left: 2em;  /* Optional: Space on the left */
+}
+
+.right-icons {
+    display: flex;
+    gap: 1em;          /* Gap between the right-side icons */
+    margin-right: 1em; /* Optional: Space on the right */
+}
+
+.topnav img {
+    width: 3em;
+    height: 3em;
+}
