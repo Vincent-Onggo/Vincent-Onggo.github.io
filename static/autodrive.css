@@ -28,6 +28,19 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    text-align: center; /* Center all content within the container */
+}
+
+.project-overview img {
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px; /* Optional: gives the image rounded corners */
+}
+
+.overview-content {
+    margin-top: 20px;
 }
 
 section {
@@ -61,25 +74,4 @@ ul {
 
 ul li {
     margin-bottom: 10px;
-}
-
-.exploration-images {
-    display: flex;
-    justify-content: space-between;
-}
-
-.exploration-images img {
-    width: 48%;
-    height: auto;
-}
-
-@media screen and (max-width: 768px) {
-    .project-container {
-        width: 95%;
-    }
-
-    .exploration-images img {
-        width: 100%;
-        margin-bottom: 15px;
-    }
 }
