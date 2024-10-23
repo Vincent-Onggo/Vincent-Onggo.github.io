@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+.image-overview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.project-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Two-column layout for sections */
+.overview-section, .details-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.overview-left, .overview-right, .details-left, .details-right {
+    width: 48%;
+}
+
+.overview-left h2, .details-left h2, .details-right h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #555;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Role and Duration Block */
+.role-duration {
+    margin-top: 20px;
+}
+
+.role-duration p {
+    margin: 5px 0;
+}
+
+/* Adding spacing between columns */
+.overview-left, .details-left {
+    padding-right: 20px;
+}
+
+.overview-right, .details-right {
+    padding-left: 20px;
+}
+
+section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Adds the line after each section */
+}
