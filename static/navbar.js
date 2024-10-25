@@ -7,7 +7,7 @@ function loadNavbar() {
             </a>
         </div>
         <div class="right-icons">
-            <a href="static/CV.pdf" download="Vincent_Onggo_Resume.pdf">
+            <a href="static/CV.pdf" target="_blank" download="Vincent_Onggo_Resume.pdf">
                 <img src="static/folder_icon.svg" style="width:3em;height:3em" alt="Download PDF">
             </a>
             <a href="index.html#info-page"><img src="static/info_icon.svg" style="width:3em;height:3em" alt="Info"></a>
